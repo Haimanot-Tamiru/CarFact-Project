@@ -1,0 +1,83 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+.main__header {
+  height: 40px;
+  display:flex;
+  align-items: center;
+  background-color: #1976d2;
+  position:sticky;
+  /* top: 0;  */
+   /* z-index: 100; */
+   padding-left:100px;
+   padding-top: 10px;
+  padding-bottom: 10px;
+   /* justify-content: space-between;  */
+}
+.cgh-logo img {
+    position: relative;
+    top: 3px;
+    width: 134px;
+}
+/* .links a{
+    color:#ffff !important;
+    
+} */
+#cgh-links {
+    z-index: 400;
+}
+.cgh-links-list {
+    display: flex;
+    
+}
+ol, ul {
+    list-style: none;
+}
+.cgh-links-list {
+    padding-left: 0;
+    margin: 0;
+}
+.cgh-link{
+    padding-right: 50px;
+}
+/* .main__header{
+    display:block;
+} */
+/* .container{
+    text-align: center;
+    width: 1000px; */
+    /* display: inline-block; */
+    /* justify-content: space-between;  */
+
+/* } */
+
+
+/* div{
+    border: orangered solid 1px;
+} */
+ .header__wrapper{
+width:100%;
+ display: flex;
+  justify-content: space-between;  
+  margin-right:300px;
+ /* color: white;
+ background-color: lawngreen; */
+}
+.header__wrapper a, .header__wrapper a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.space{
+    margin-right: 20px;
+}
+
+.cgh-verticalBar {
+    margin: 0;
+    padding-right: 10px;
+}
+.cgh-verticalBar:after {
+    content: "";
+    border-left: 1px solid #fff;
+    height: 100%;
+}
