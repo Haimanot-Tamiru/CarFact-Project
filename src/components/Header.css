@@ -1,83 +1,74 @@
-img {
-    max-width: 100%;
-    height: auto;
-}
-.main__header {
-  height: 40px;
-  display:flex;
-  align-items: center;
+/* header style */
+/* div {
+  border: red solid 2px;
+} */
+.nav-wrapper {
   background-color: #1976d2;
-  position:sticky;
-  /* top: 0;  */
-   /* z-index: 100; */
-   padding-left:100px;
-   padding-top: 10px;
-  padding-bottom: 10px;
-   /* justify-content: space-between;  */
+  font-weight: 150;
+  height: 50px;
+  padding-top: 5px;
+  /* checking part */
+  /* width: 100px; */
+  /* object-fit: contain; */
+  /* margin: 0 20px; */
+  /* margin-top: 10px; */
+  align-items: center;
+  /* position: sticky; */
+  top:0;
+  z-index: 100;
 }
-.cgh-logo img {
-    position: relative;
-    top: 3px;
-    width: 134px;
+.logo-style {
+  color: #fff;
+  font-size: 16px;
 }
-/* .links a{
-    color:#ffff !important;
-    
-} */
-#cgh-links {
-    z-index: 400;
+.navbar {
+  height: 35px;
+  font-size: 13px;
 }
-.cgh-links-list {
-    display: flex;
-    
+.style-size a {
+  margin-right: 10px;
 }
-ol, ul {
-    list-style: none;
+.navbar-collapse {
+  height: 40px;
 }
-.cgh-links-list {
-    padding-left: 0;
-    margin: 0;
+.nav-wrapper ul li a {
+  color: #fff;
 }
-.cgh-link{
-    padding-right: 50px;
+.logIn {
+  padding-left: 50px;
 }
-/* .main__header{
-    display:block;
-} */
-/* .container{
+.navbar-toggler {
+  color: #fff;
+  /* background-color: #1976d2; */
+}
+.nav-item {
+  text-align: left !important;
+  /* padding-bottom: 5px; */
+  padding-top: 10px;
+}
+
+/* media query */
+@media (max-width: 720px) {
+  .logo-style {
+    font-size: 16px;
     text-align: center;
-    width: 1000px; */
-    /* display: inline-block; */
-    /* justify-content: space-between;  */
+    padding-top: 5px;
+  }
+  .nav-item {
+    background-color: #1976d2;
+    padding-left: 10px;
+   
+     
+    
+  }
 
-/* } */
-
-
-/* div{
-    border: orangered solid 1px;
-} */
- .header__wrapper{
-width:100%;
- display: flex;
-  justify-content: space-between;  
-  margin-right:300px;
- /* color: white;
- background-color: lawngreen; */
+  .logIn {
+    display: none;
+  }
 }
-.header__wrapper a, .header__wrapper a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-.space{
-    margin-right: 20px;
-}
-
-.cgh-verticalBar {
-    margin: 0;
-    padding-right: 10px;
-}
-.cgh-verticalBar:after {
-    content: "";
-    border-left: 1px solid #fff;
-    height: 100%;
+@media (min-width: 768) {
+  .logo-style {
+    padding-bottom: 20px;
+    padding-right: 60px;
+  }
 }
